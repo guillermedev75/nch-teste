@@ -45,6 +45,10 @@ function changeContent2(){
     document.querySelector(".content4 img").setAttribute("src","assets/page1/content-test4.png");
     document.querySelector(".content5 img").setAttribute("src","assets/page1/content-test5.png");
 
+    document.getElementById("longBt").setAttribute("class","active")
+    document.getElementById("shortBt").setAttribute("class","")
+    document.getElementById("netBt").setAttribute("class","")
+
     document.getElementById('changePage').setAttribute("onclick","changeContent()");
     
 }
@@ -56,6 +60,10 @@ function longFilter(){
     document.querySelector(".content3 img").setAttribute("src","assets/page1/content-test1.png");
     document.querySelector(".content4 img").setAttribute("src","assets/page1/content-test4.png");
     document.querySelector(".content5 img").setAttribute("src","assets/page1/content-test5.png");
+
+    document.getElementById("longBt").setAttribute("class","active")
+    document.getElementById("shortBt").setAttribute("class","")
+    document.getElementById("netBt").setAttribute("class","")
     
 }
 
@@ -67,6 +75,10 @@ function shortFilter(){
     document.querySelector(".content4 img").setAttribute("src","assets/short-page1/content4.png");
     document.querySelector(".content5 img").setAttribute("src","assets/short-page1/content5.png");
 
+    document.getElementById("longBt").setAttribute("class","")
+    document.getElementById("shortBt").setAttribute("class","active")
+    document.getElementById("netBt").setAttribute("class","")
+
 }
 
 function netFilter(){
@@ -76,5 +88,9 @@ function netFilter(){
     document.querySelector(".content3 img").setAttribute("src","assets/net-page1/content3.png");
     document.querySelector(".content4 img").setAttribute("src","assets/net-page1/content4.png");
     document.querySelector(".content5 img").setAttribute("src","assets/net-page1/content5.png");
+
+    document.getElementById("longBt").setAttribute("class","")
+    document.getElementById("shortBt").setAttribute("class","")
+    document.getElementById("netBt").setAttribute("class","active")
 
 }

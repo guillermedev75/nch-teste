@@ -64,6 +64,12 @@ body{
     color: var(--main-bg-color);
 }
 
+.active{
+    background-color: white;
+    color: var(--main-bg-color);
+}
+
+
 .container{
 
     width: 1366px;
