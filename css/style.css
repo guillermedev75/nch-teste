@@ -193,6 +193,7 @@ body{
     flex: 4;
     display: flex;
     max-width: 1187px;
+    max-height: 590px;
     flex-wrap: wrap;
 
 }
@@ -202,7 +203,10 @@ body{
     flex: 1;
     margin-top: 5px;
     margin-left: 5px;
+}
 
+.content1 img{
+    height: 293px;
 }
 
 .content2{
@@ -212,11 +216,11 @@ body{
     margin-left: 5px;
     display:flex;
 
-
 }
 
 .content2 img{
     flex: 1;
+    height: 293px;
 }
 
 .content3{
@@ -225,7 +229,10 @@ body{
     margin-top: 5px;
     margin-left: 5px;
 
+}
 
+.content3 img{
+    height: 278px;
 }
 
 .content4{
@@ -234,7 +241,10 @@ body{
     margin-top: 5px;
     margin-left: 5px;
 
+}
 
+.content4 img{
+    height: 278px;
 }
 
 .content5{
@@ -243,5 +253,8 @@ body{
     margin-top: 5px;
     margin-left: 5px;
 
+}
 
+.content5 img{
+    height: 278px;
 }
