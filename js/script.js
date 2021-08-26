@@ -13,12 +13,12 @@ function changeContent(){
     document.getElementById('info4').innerHTML="<h1>15,27%i</h1><h3>Rentabilidade ano</h3>";
     document.getElementById('info5').innerHTML="<h1>139,67%</h1><h3>Rentabilidade ITD</h3>";
 
-    document.querySelector(".content1 img").setAttribute("src","assets/page2/content1.png")
-    document.querySelector(".content2 img").setAttribute("src","assets/page2/content2.png")
-    document.getElementById("textContent").setAttribute("src","assets/page2/text1.png")
-    document.querySelector(".content3 img").setAttribute("src","assets/page2/content3.png")
-    document.querySelector(".content4 img").setAttribute("src","assets/page2/content4.png")
-    document.querySelector(".content5 img").setAttribute("src","assets/page2/content5.png")
+    document.querySelector(".content1 img").setAttribute("src","assets/page2/content1.png");
+    document.querySelector(".content2 img").setAttribute("src","assets/page2/content2.png");
+    document.getElementById("textContent").setAttribute("src","assets/page2/text1.png");
+    document.querySelector(".content3 img").setAttribute("src","assets/page2/content3.png");
+    document.querySelector(".content4 img").setAttribute("src","assets/page2/content4.png");
+    document.querySelector(".content5 img").setAttribute("src","assets/page2/content5.png");
 
     document.getElementById('changePage').setAttribute("onclick","changeContent2()");
 }
@@ -38,12 +38,12 @@ function changeContent2(){
     document.getElementById('info4').innerHTML="<h1>18,62%</h1><h3>Rentalidade ITD</h3>";
     document.getElementById('info5').innerHTML="";
 
-    document.querySelector(".content1 img").setAttribute("src","assets/page1/content-test2.png")
-    document.querySelector(".content2 img").setAttribute("src","assets/page1/content-test3.png")
-    document.getElementById("textContent").setAttribute("src","assets/page1/text-content1.png")
-    document.querySelector(".content3 img").setAttribute("src","assets/page1/content-test1.png")
-    document.querySelector(".content4 img").setAttribute("src","assets/page1/content-test4.png")
-    document.querySelector(".content5 img").setAttribute("src","assets/page1/content-test5.png")
+    document.querySelector(".content1 img").setAttribute("src","assets/page1/content-test2.png");
+    document.querySelector(".content2 img").setAttribute("src","assets/page1/content-test3.png");
+    document.getElementById("textContent").setAttribute("src","assets/page1/text-content1.png");
+    document.querySelector(".content3 img").setAttribute("src","assets/page1/content-test1.png");
+    document.querySelector(".content4 img").setAttribute("src","assets/page1/content-test4.png");
+    document.querySelector(".content5 img").setAttribute("src","assets/page1/content-test5.png");
 
     document.getElementById('changePage').setAttribute("onclick","changeContent()");
     
