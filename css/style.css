@@ -55,6 +55,7 @@ body{
     text-align: center;
     margin-right: 15px;
     margin-top: 5px;
+    transition: 0.2s;
 }
 
 .headerBT a:hover{
@@ -111,6 +112,7 @@ body{
     text-align: center;
     text-decoration: none;
     font-weight: 100;
+    transition: 0.2s;
 }
 
 .buttons a:hover{
@@ -139,6 +141,7 @@ body{
     text-align: center;
     font-size: 16px;
     font-weight: 100;
+    transition: 0.2s;
 }
 
 .filterData h2:hover{
@@ -196,9 +199,10 @@ body{
 
 .content1{
     background-color: var(--main-bg-color);
-    flex: 2;
+    flex: 1;
     margin-top: 5px;
     margin-left: 5px;
+
 }
 
 .content2{
@@ -207,6 +211,7 @@ body{
     margin-top: 5px;
     margin-left: 5px;
     display:flex;
+
 
 }
 
@@ -220,6 +225,7 @@ body{
     margin-top: 5px;
     margin-left: 5px;
 
+
 }
 
 .content4{
@@ -228,6 +234,7 @@ body{
     margin-top: 5px;
     margin-left: 5px;
 
+
 }
 
 .content5{
@@ -235,5 +242,6 @@ body{
     flex: 1;
     margin-top: 5px;
     margin-left: 5px;
+
 
 }

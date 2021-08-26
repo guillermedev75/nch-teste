@@ -48,3 +48,33 @@ function changeContent2(){
     document.getElementById('changePage').setAttribute("onclick","changeContent()");
     
 }
+
+function longFilter(){
+
+    document.querySelector(".content2 img").setAttribute("src","assets/page1/content-test3.png");
+    document.getElementById("textContent").setAttribute("src","assets/page1/text-content1.png");
+    document.querySelector(".content3 img").setAttribute("src","assets/page1/content-test1.png");
+    document.querySelector(".content4 img").setAttribute("src","assets/page1/content-test4.png");
+    document.querySelector(".content5 img").setAttribute("src","assets/page1/content-test5.png");
+    
+}
+
+function shortFilter(){
+
+    document.querySelector(".content2 img").setAttribute("src","assets/short-page1/content2.png");
+    document.getElementById("textContent").setAttribute("src","assets/short-page1/text-content1.png");
+    document.querySelector(".content3 img").setAttribute("src","assets/short-page1/content3.png");
+    document.querySelector(".content4 img").setAttribute("src","assets/short-page1/content4.png");
+    document.querySelector(".content5 img").setAttribute("src","assets/short-page1/content5.png");
+
+}
+
+function netFilter(){
+
+    document.querySelector(".content2 img").setAttribute("src","assets/net-page1/content2.png");
+    document.getElementById("textContent").setAttribute("src","assets/net-page1/text-content1.png");
+    document.querySelector(".content3 img").setAttribute("src","assets/net-page1/content3.png");
+    document.querySelector(".content4 img").setAttribute("src","assets/net-page1/content4.png");
+    document.querySelector(".content5 img").setAttribute("src","assets/net-page1/content5.png");
+
+}
